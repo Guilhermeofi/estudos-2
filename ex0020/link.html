@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{  
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: #fa0c0c;
+            text-decoration: none;
+        }
+        a:hover{ 
+            text-decoration:underline;
+            color: #4400ff;
+            font-weight: bold;
+        }
+        a:active{
+            color: #28fa0c ; 
+        }
+
+        a::before {
+            content: "→ ";
+    }
+ a::after {
+            content: "← ";
+    }
+    </style>
+</head>
+
+<body>
+    <h1>personalizando link</h1>
+
+    <ul>
+        <li><a href="https://www.instagram.com/euguilherme.r.v/"  target="_blank">instragram</a></li>
+        <li><a href="https://www.tiktok.com/"targat="_blank">tiktok</a></li>
+        <li><a href="https://www.linkedin.com/in/guilherme-ramos-vargas-034668414/" target="_blank">linkdee</a></li>
+    </ul>
+</body>
+</html>
