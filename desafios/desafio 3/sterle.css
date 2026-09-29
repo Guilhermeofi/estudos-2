@@ -20,7 +20,7 @@ body {
      padding: 20px;
      font-family: 'Courier New', Courier, monospace;
      text-shadow: 2px 2px 0px #00000093;
-    
+    max-width: 100%;
     
 }
 .titulo1 >h1{
