@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url('Matcha\ Home.ttf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+div > pre{
+     white-space: pre-line;
+
+
+}
+
+html, body {
+    min-height: 100vh;
+   
+    background-color: #bdbcbc;
+}
+.titulo{
+background: linear-gradient(to right, #032de7, #990199);
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    font-family: 'titulo';
+    
+}
+p{
+    text-align: left;
+    font-variant: small-caps;
+    
+    font-family: 'Arial';
+}
