@@ -12,16 +12,12 @@
     padding: 0;
     
 }
-div >  pre{
-     white-space: pre-line;
 
-
-}
 
 html, body {
     min-height: 100vw;
    
-    background-color: #bdbcbc;
+    
 }
 .titulo{
 background: linear-gradient(to right, #032de7, #990199);
@@ -33,28 +29,35 @@ background: linear-gradient(to right, #032de7, #990199);
     
 }
 p{
-    text-align: left;
-    font-variant: small-caps;
-    line-height: 3em;
-    padding-left: 30px;
-    font-family: 'Arial';
-    font-family: 'Chewy';
+     text-align: left;
+    
+    line-height: 1.2em;
+    
+     font-family: 'Chewy';
     font-size: 2.5vw;
-    margin-bottom: 30px;
+    
     
 
 }
 .foto{
-   
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     color: aliceblue; 
-}.foto pre p {
-    background-color: rgba(0, 0, 0, 0.11);
+    box-shadow: inset   6px 13px 13px #00000085;
+    
+}
+.foto pre p {
+    background-color: rgba(0, 0, 0, 0.226);
    display: inline-block;
-    padding-left: 30px;
-    margin-left: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
     font-family: 'Chewy';
-    font-size: 3vw;
-    padding-left: 20px;
+    font-size: 2.5vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px #000000;
+    box-shadow: 1px 1px 10px #000000;
+    border-radius: 10px;
 }
 .rodape{
     text-align: center;
@@ -62,14 +65,41 @@ p{
     background-color: #032de7;
     color: aliceblue;
     text-decoration: underline;
+    
 }
 .poema
 {
-   
     
-    background-color: #fcf9f9;
+    
+    background-color: #dcddd3;
 }
 div{
-    padding-bottom: 20vh;
-    padding-top: 20vh;
-    font-family: 'Chewy';}
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    font-family: 'Chewy' ;
+}
+
+    div#foto1{
+        background-image: url(img/IMG_1428_Original.jpg);
+        background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-size: 100% 100%;
+          background-attachment: fixed;
+      
+    }
+
+    div#foto2{
+         background-image: url(img/IMG_3442.jpg);  
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;  
+         background-size: 100% 100%;
+         background-attachment: fixed;
+      
+    }
+
+    #foto2 p{
+        margin-left: 60vw;
+    }
+
