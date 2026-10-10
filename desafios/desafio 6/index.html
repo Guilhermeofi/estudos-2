@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+         
+            border-collapse: collapse;
+        }
+    th,td{
+        border: 1px solid black;
+    }
+        .t{
+            width:100px;
+        }
+        .n{
+            width: 50px;
+        }
+        .exatas{
+            background-color: rgba(119, 119, 118, 0.658); 
+            color: #ffffff;
+            text-align: left;
+        } 
+        .a{
+            width: 100px;
+            height: 40px; 
+        }
+        thead{
+        background-color: rgba(141, 141, 141, 0.986);
+        color: #ffffff;
+        }
+        .carea{
+            background-color: aqua;
+        }
+        .cdiciolina{
+            background-color: blueviolet;
+        }
+        .cnota{
+            background-color: chartreuse;
+        }
+        .cmedia{
+            background-color: cornflowerblue;
+        }
+        .cnota2{
+            background-color: brown;
+        }
+     
+            .testes:hover {
+    background-color: #000000;
+}
+        
+        </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+             <col class="carea">
+            <col class="cdiciolina">
+            <col class="cnota" span="2">
+           >
+            <col class="cmedia">
+        </colgroup>
+       <thead>
+        <tr>
+            <th rowspan="3" class="a"  scope="row">area</th>
+            <th rowspan="3" class="t"  scope="row">diciplina</th>
+        </tr>
+        <tr> 
+            <th colspan="2"  scope="row">nota</th>
+            <th rowspan="2"  scope="row">media</th>
+            <tr>
+            <th class="n"  scope="row">nota 1</th>
+            <th class="n"  scope="row">nota 2</th> 
+        </tr>
+        </tr>
+       </thead>
+        <tr>
+            <th rowspan="4" scope="colgroup" class="teste">exatas</th>
+            <td>matematica</td>
+            <td>7.0</td>
+            <td>6.0</td>
+            <td>7.0</td>
+        </tr>
+        <tr>
+            <td>fisica</td>
+            <td>4.0</td>
+            <td>5.0</td>
+            <td>10.0</td>
+        
+        </tr>
+        <tr>
+            <td>quimica</td>
+            <td>7.0</td>
+            <td>10.0</td>
+            <td>8.00</td>
+        </tr>
+        <tr>
+            <td>bilogia</td>
+            <td>3.5</td>
+            <td>7.4</td>
+            <td>5.4</td>
+        </tr>
+<tr>
+    <th colspan="4" class="exatas" scope="col">media de exatas</th>
+    <td class="exatas">6.7</td>
+</tr>
+<tr>
+    <th rowspan="2" scope="col" class="teste">humanas</th>
+    <td>historia</td>
+    <td>5.0</td>
+    <td>5.0</td>
+    <td>5.0</td>
+
+</tr>
+<tr>
+    <td>geografica</td>
+    <td>4.0</td>
+    <td>8.0</td>
+    <td>5.4</td>
+</tr>
+<tr>
+    <th colspan="4" class="exatas" scope="col">media de humanas</th>
+    <td class="exatas">6,7</td>
+</tr>
+    </table>
+</body>
+</html>
